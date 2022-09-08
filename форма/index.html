@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/style.css">
+	<title>form</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="main">
+			<form>
+                <input id="name" type="text" alt="name" placeholder="Имя" required />
+                <input id="email" type="e-mail" alt="E-mail" placeholder="E-mail" required />
+                <input id="tel" type="text" alt="tel" placeholder="Telephone" required />
+            
+			<div>
+				<h1>Радио кнопки</h1>
+				<p>1</p>
+				<input type="radio" name="rad" id="rad1" checked>
+				<p>2</p>
+				<input type="radio" name="rad" id="rad1">
+				<p>3</p>
+				<input type="radio" name="rad" id="rad1">
+			</div>
+			<div>
+				<p>Я даю согласие на обработку моих личных данных</p>
+				<input type="checkbox" name="check" id="check" alt="check">
+			</div>
+			<input type="submit" style="height: auto" onclick="SendMessage()" />
+			</form>
+		</main>
+		<footer class="footer"></footer>
+		<script src="js/ndex.js" type="text/javascript"></script>
+    </div>
+</body>
+</html>
